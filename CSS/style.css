@@ -103,8 +103,10 @@
 }
 
 .btn-primary {
+    color: #FFF;
     width: 174px;
     height: 52px;
+    border: none;
     border-radius: 8px;
     background: #FF5400;
     padding: 10px;
@@ -115,4 +117,46 @@
 .btn-primary:hover {
     transform: translateY(-20px) scale(1.2);
     z-index: 1.2;
+}
+
+/* Section 1 style start here */
+.section1 {
+    margin: 100px auto;
+    width: 1200px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.sce1-heading {
+    color: #131318;
+    text-align: left;
+    font-size: 2.8rem;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.sec1-p {
+    width: 530px;
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 30px 0;
+}
+
+.sec1-text > ul > li {
+    width: 525px;
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 30px 0px;
+}
+
+.sce1-img {
+    max-width: 50%;
+    width: 540px;
+height: 550px;
+border-radius: 16px;
 }
