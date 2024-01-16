@@ -86,6 +86,43 @@
         height: 350px;
         margin: 0px auto;
     }
+
+    .btn-two {
+        width: 150px;
+        height: 50px;
+        margin-left: 10px;
+    }
+}
+
+/* choose section (3) mobile responsive */
+
+@media screen and (max-width: 600px) {
+
+    .ch-container {
+        width: 90%;
+    }
+
+    .ch-heading {
+        font-size: 1.5rem;
+    }
+
+    .ch-head .ch-dis {
+        width: 350px;
+    }
+
+    .ch-serve {
+        width: 335px;
+        height: 289px;
+    }
+
+    .ch-p{
+        width: 300px;
+    }
+
+    .ch-div2{
+        flex-direction: column;
+        margin-left: 10px;
+    }
 }
 
 
@@ -112,7 +149,7 @@
 
 
 
-@media screen and (max-width: 600px) {}
+
 
 @media screen and (max-width: 600px) {}
 

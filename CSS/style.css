@@ -146,7 +146,7 @@
     margin: 30px 0;
 }
 
-.sec1-text > ul > li {
+.sec1-text>ul>li {
     width: 525px;
     color: rgba(19, 19, 24, 0.70);
     font-size: 1rem;
@@ -157,6 +157,86 @@
 .sce1-img {
     max-width: 50%;
     width: 540px;
-height: 550px;
-border-radius: 16px;
+    height: 550px;
+    border-radius: 16px;
+}
+
+/* Section 3 style start here */
+
+.ch-container {
+    border: 2px solid;
+    width: 1200px;
+    margin: 10px auto;
+    display: block;
+    /* text-align: center; */
+}
+
+.ch-head {
+    text-align: center;
+}
+
+.ch-head .ch-heading {
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.ch-head .ch-dis {
+    /* border: 1px solid; */
+    margin: 20px auto;
+    width: 643px;
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+}
+
+.ch-serve {
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 30px;
+}
+
+/* box design */
+.ch-img {
+    width: 64px;
+    height: 64px;
+    /* padding-left: 20px; */
+    margin-bottom: 20px;
+}
+
+.ch-heading {
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+    /* padding-left: 20px; */
+    margin-bottom: 20px;
+}
+
+.ch-p {
+    width: 486px;
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+    /* 162.5% */
+    /* padding-left: 20px; */
+}
+
+.ch-div2{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+.ch-div3{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
 }
