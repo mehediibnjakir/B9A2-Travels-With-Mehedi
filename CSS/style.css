@@ -92,6 +92,8 @@
     padding: 10px;
     border: none;
     border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 800;
 }
 
 .select {
@@ -100,6 +102,9 @@
     border-radius: 5px;
     background: #FFF;
     margin-right: 10px;
+    font-size: 1.2rem;
+    font-weight: 800;
+    padding-left: 10px;
 }
 
 .btn-primary {
@@ -241,6 +246,50 @@
     justify-content: center;
     margin-top: 20px;
 }
+/* Section Hajj style Start here*/
+
+.section-haj {
+    margin: 100px auto;
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.sce-haj-heading {
+    color: #01460a;
+    text-align: left;
+    font-size: 2.8rem;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.sec-haj-p {
+    width: 530px;
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 30px 0;
+}
+
+.sec-haj-text > ol > li {
+    width: 525px;
+    color: rgba(255, 2, 2, 0.7);
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 30px 0px;
+}
+
+.sce-haj-img  .haj {
+    max-width: 100%;
+    width: 540px;
+    height: 550px;
+    border-radius: 16px;
+}
+.btn-haj {
+    background-color: darkgreen;
+}
 
 /* Newsletter Section style start here */
 
@@ -323,4 +372,54 @@
     position: relative;
     left: 341px;
     bottom: 130px;
+}
+
+/* Footer section style start here */
+
+.foot-container {
+    width: 1440px;
+    /* height: 502px; */
+    background: rgba(19, 19, 24, 0.05);
+    margin: 0 auto;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
+.ft-nav {
+    margin: 20px auto;
+}
+
+.f-text {
+    width: 769px;
+    color: #5A5A5D;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 20px;
+}
+
+.f-icon {
+    margin: 40px auto;
+    width: 200px;
+    height: 40px;
+    display: flex;
+    gap: 20px;
+    /* justify-content: center; */
+}
+.f-icon > i {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+}
+
+.copyright{
+    margin: 40px auto;
+    color: #131318;
+font-size: 1.2rem;
+font-weight: 600;
 }
