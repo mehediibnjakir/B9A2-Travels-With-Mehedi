@@ -166,6 +166,91 @@
     border-radius: 16px;
 }
 
+/* Section two style start here */
+.sec2-container {
+    margin: 30px auto;
+    width: 1200px;
+    /* height: 1200px; */
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.sec2-text {
+    text-align: center;
+    margin: 20px auto;
+}
+
+.sec2-text .sec2-head {
+    color: #131318;
+    /* text-align: center; */
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin: 20px auto;
+}
+
+.sec2-text .sec2-p {
+    width: 643px;
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+/* grid application */
+.img-bg1 {
+    border-radius: 16px;
+    grid-area: md;
+}
+
+.img-bg2 {
+    border-radius: 16px;
+    grid-area: in;
+}
+
+.img-bg3 {
+    border-radius: 16px;
+    grid-area: sk;
+}
+
+.img-bg4 {
+    border-radius: 16px;
+    grid-area: nam;
+}
+
+.img-bg5 {
+    border-radius: 16px;
+    grid-area: kmir;
+}
+
+.img-bg6 {
+    border-radius: 16px;
+    grid-area: bd;
+}
+
+.img-bg7 {
+    border-radius: 16px;
+    grid-area: bbon;
+}
+
+.sec2-img {
+    display: grid;
+    gap: 0px 20px;
+    grid-template-areas:
+        "md md md md md md in in in in in in"
+        "sk sk sk sk nam nam nam nam nam kmir kmir kmir"
+        "bd bd bd bd bd bbon bbon bbon bbon bbon bbon bbon"
+    ;
+}
+
+.p-text {
+    color: #FFF;
+    font-size: 1.6rem;
+    font-weight: 800;
+    position: relative;
+    top: -150px;
+}
+
 /* Section 3 style start here */
 
 .ch-container {
@@ -246,6 +331,7 @@
     justify-content: center;
     margin-top: 20px;
 }
+
 /* Section Hajj style Start here*/
 
 .section-haj {
@@ -273,20 +359,21 @@
     margin: 30px 0;
 }
 
-.sec-haj-text > ol > li {
+.sec-haj-text>ol>li {
     width: 525px;
-    color: rgba(255, 2, 2, 0.7);
+    color: rgba(5, 95, 50, 0.7);
     font-size: 1rem;
     font-weight: 400;
     margin-bottom: 30px 0px;
 }
 
-.sce-haj-img  .haj {
+.sce-haj-img .haj {
     max-width: 100%;
     width: 540px;
     height: 550px;
     border-radius: 16px;
 }
+
 .btn-haj {
     background-color: darkgreen;
 }
@@ -411,15 +498,16 @@
     gap: 20px;
     /* justify-content: center; */
 }
-.f-icon > i {
+
+.f-icon>i {
     width: 100px;
     height: 100px;
     cursor: pointer;
 }
 
-.copyright{
+.copyright {
     margin: 40px auto;
     color: #131318;
-font-size: 1.2rem;
-font-weight: 600;
+    font-size: 1.2rem;
+    font-weight: 600;
 }
