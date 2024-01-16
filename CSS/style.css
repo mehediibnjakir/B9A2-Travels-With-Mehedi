@@ -359,7 +359,7 @@
     margin: 30px 0;
 }
 
-.sec-haj-text>ol>li {
+.sec-haj-text>ul>li {
     width: 525px;
     color: rgba(5, 95, 50, 0.7);
     font-size: 1rem;
